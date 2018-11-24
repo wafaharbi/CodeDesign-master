@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".University">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="42dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/mg"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/jj" />
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_below="@+id/mg"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text=" Qassim University :"
+
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Title"
+                android:layout_marginStart="13dp"
+
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/describtion_txt"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/d2"
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/d"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/describtion2_txt"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="17dp"
+                android:text="Website :"
+
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="450dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginRight="17dp"
+                android:text="@string/link" />
+
+            <!--<Button
+                android:id="@+id/button3"
+                android:layout_width="69dp"
+                android:layout_height="33dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="306dp"
+                android:layout_marginLeft="306dp"
+                android:layout_marginBottom="0dp"
+                android:text="Button"
+                android:onClick="call"
+                />
+
+            -->
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="143dp"
+                android:layout_marginLeft="143dp"
+                android:layout_marginTop="7dp"
+                android:onClick="call"
+                android:text="016 380 0050" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="0dp"
+                android:text="Number:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

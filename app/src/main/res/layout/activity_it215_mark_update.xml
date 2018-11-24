@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT215MarkUpdate">
+
+
+    <EditText
+        android:id="@+id/updateQizeMark"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/updateName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="Enter quiz mark "
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/updateFinalMark"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/updateQizeMark"
+        android:layout_marginTop="204dp"
+        android:ems="10"
+        android:hint="Enter final mark"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnUpdating"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="207dp"
+        android:layout_marginBottom="127dp"
+        android:background="@color/red"
+        android:onClick="update"
+        android:text="Update"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/btnDeleting"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="127dp"
+        android:background="@color/red"
+        android:onClick="delete"
+        android:text="Delete"
+        android:textColor="@color/White" />
+    <!-- <Button
+         android:id="@+id/btnDelete"
+         android:layout_width="112dp"
+         android:layout_height="48dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginStart="76dp"
+         android:layout_marginBottom="87dp"
+         android:background="@color/red"
+
+         android:onClick="delete"
+         android:textColor="@color/White"
+         tools:text="delete" />-->
+
+    <TextView
+        android:id="@+id/stdID"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="313dp"
+        android:layout_marginRight="313dp"
+        android:layout_marginTop="112dp"
+        android:text="Quiz:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/updateMidUpdate"
+        android:layout_marginEnd="-30dp"
+        android:layout_toStartOf="@+id/stdID"
+        android:text="Mid:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/updateFinalMark"
+        android:layout_alignParentStart="true"
+        android:text="Final:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/updateMidUpdate"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/updateQizeMark"
+        android:layout_below="@+id/updateQizeMark"
+        android:ems="10"
+        android:hint="Enter mid mark"
+        android:inputType="textPersonName" />
+
+
+
+</RelativeLayout>

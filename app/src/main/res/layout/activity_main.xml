@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secbg"
+    tools:context=".MainActivity">
+
+
+   <ImageView
+       android:id="@+id/imageView2"
+       android:layout_width="wrap_content"
+       android:layout_height="461dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="11dp"
+       android:layout_marginLeft="11dp"
+       android:layout_marginTop="62dp"
+       android:foregroundGravity="center"
+       app:srcCompat="@drawable/rectangle7" />
+
+
+   <ImageView
+       android:id="@+id/imageView3"
+       android:layout_width="wrap_content"
+       android:layout_height="101dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="131dp"
+       app:srcCompat="@drawable/logo" />
+
+
+   <ImageView
+       android:id="@+id/imageView6"
+       android:layout_width="158dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="34dp"
+       android:layout_marginLeft="34dp"
+       android:layout_marginTop="249dp"
+       app:srcCompat="@drawable/areyou" />
+
+   <ImageView
+       android:id="@+id/imageView7"
+       android:layout_width="wrap_content"
+       android:layout_height="105dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="47dp"
+       android:layout_marginLeft="47dp"
+       android:layout_marginBottom="165dp"
+       android:onClick="SignStudent"
+       app:srcCompat="@drawable/studentbtn3" />
+
+
+   <ImageView
+       android:id="@+id/imageView7"
+       android:layout_width="98dp"
+       android:layout_height="109dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="146dp"
+       android:layout_marginLeft="146dp"
+       android:layout_marginTop="294dp"
+       android:layout_marginBottom="164dp"
+       android:onClick="SignTeacher"
+       app:srcCompat="@drawable/teacherbtn3" />
+
+
+   <ImageView
+       android:id="@+id/imageView7"
+       android:layout_width="88dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="258dp"
+       android:layout_marginLeft="258dp"
+       android:layout_marginBottom="158dp"
+       android:onClick="SignParent"
+       app:srcCompat="@drawable/parentbtn3" />
+
+   <!-- <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/logo" />-->
+</RelativeLayout>

@@ -104,20 +104,22 @@ public class CourseStudentIT473 extends AppCompatActivity {
 
 
             // final String name = info.setName(dataSnapshot.child("name").getValue().toString());
-            final String attendance = info.setAttendance(dataSnapshot.child("attendance").getValue().toString());
+          /*  final String attendance = info.setAttendance(dataSnapshot.child("attendance").getValue().toString());
             final String quiz = info.setQuize(dataSnapshot.child("quiz").getValue().toString());
             final String mid = info.setMid(dataSnapshot.child("mid").getValue().toString());
-            final String finals = info.setFinals(dataSnapshot.child("finals").getValue().toString());
+            final String finals = info.setFinals(dataSnapshot.child("finals").getValue().toString());*/
+            final int popquiz = info.setPopquiz((Integer) dataSnapshot.child("popquiz").getValue(Integer.class));
             //final String finals = dataSnapshot.child("image").getValue().toString();
 
             // Picasso.with(OtherStudentProfile.this).load(image).placeholder(R.drawable.default_img).into(mDisplayImage);
 
-            ArrayList<String> array = new ArrayList<>();
+            ArrayList<Integer> array = new ArrayList<>();
             //array.add(name);
-            array.add(attendance);
+           /* array.add(attendance);
             array.add(quiz);
             array.add(mid);
-            array.add(finals);
+            array.add(finals);*/
+            array.add(popquiz);
 
             ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, array);
 

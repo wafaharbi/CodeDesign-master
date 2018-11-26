@@ -6,6 +6,7 @@ public class User {
     public String name,email , password , phone , username  , image , thumb_image  ,id,course1,course2,course3,mark,
             coursename, attendance, quize, mid, finals;
 
+     public  int popquiz;
 
     public User(String name, String email, String password,String username, String phone,String image , String thumb_image , String id,
                String course1,String course2,String course3, String mark){
@@ -211,5 +212,14 @@ public class User {
     public String setFinals(String finals) {
         this.finals = finals;
         return finals;
+    }
+
+    public int getPopquiz() {
+        return popquiz;
+    }
+
+    public int setPopquiz(int popquiz) {
+        this.popquiz = popquiz;
+        return popquiz;
     }
 }

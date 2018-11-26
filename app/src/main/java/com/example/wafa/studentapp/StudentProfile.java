@@ -110,25 +110,7 @@ public class StudentProfile extends AppCompatActivity {
 
                 showData(dataSnapshot);
 
-                //  Toast.makeText(SettingsActivity.this,dataSnapshot.toString(),Toast.LENGTH_LONG).show();
-                /*
-                String name = dataSnapshot.child("name").getValue().toString();
-                String username = dataSnapshot.child("username").getValue().toString();
-                String password = dataSnapshot.child("password").getValue().toString();
 
-//wafaaaaaaaaaa cooode
-
-                String image = dataSnapshot.child("image").getValue().toString();
-                String thumb_image = dataSnapshot.child("thumb_image").getValue().toString();
-
-
-                String phone = dataSnapshot.child("phone").getValue().toString();
-
-                mName.setText(name);
-                mUsername.setText(username);
-                mPass.setText(password);
-                mPhone.setText(phone);
-                */
             }
 
             @Override
@@ -136,23 +118,7 @@ public class StudentProfile extends AppCompatActivity {
 
             }
         });
-        // not important nooooooo
 
-       /* mNameBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                String name_value = mName.getText().toString();
-
-                Intent name_intent = new Intent(StudentProfile.this, UpdateProfile.class);
-
-                name_intent.putExtra("name_value", name_value);
-                startActivity(name_intent);
-
-            }
-        });
-*/
-////////////////////////////////For Image ////////////////////////////
 
         mImageBtn.setOnClickListener(new View.OnClickListener() {
             @Override

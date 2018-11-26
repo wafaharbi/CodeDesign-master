@@ -154,7 +154,7 @@ public class ParentHome extends AppCompatActivity implements NavigationView.OnNa
 
 
     public void GoToCourses(View v){
-        Intent i = new Intent(this, CourseNames.class);   //FilesUpload
+        Intent i = new Intent(this, CourseParent.class);   //FilesUpload
         startActivity(i);
     }
 

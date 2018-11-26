@@ -174,7 +174,14 @@
         <activity android:name=".CourseViewIT342" />
         <activity android:name=".CourseStudentIT342" />
         <activity android:name=".CourseViewCS214" />
-        <activity android:name=".FileView"></activity>
+        <activity android:name=".FileView" />
+        <activity android:name=".CourseParent" />
+        <activity android:name=".CourseParentTI473" />
+        <activity android:name=".CourseParentCS383" />
+        <activity android:name=".CourseParentIT443" />
+        <activity android:name=".CourseParentIT215" />
+        <activity android:name=".CourseParentIT342" />
+        <activity android:name=".CourseParentCS214"></activity>
     </application>
 
 </manifest>
